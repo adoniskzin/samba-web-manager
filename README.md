@@ -1,8 +1,4 @@
-cd /opt/samba-manager
-
-# README.md oluştur
-sudo cat > README.md << 'EOFREADME'
-# 🗂️ Samba Web Manager
+ # 🗂️ Samba Web Manager
 
 Modern, kullanıcı dostu web tabanlı Samba yönetim paneli. Flask ile geliştirilmiş, responsive tasarıma sahip.
 
@@ -66,7 +62,7 @@ sudo apt install -y python3 python3-pip python3-venv samba samba-common-bin
 
 ### 3. Projeyi İndir
 cd /opt
-sudo git clone https://github.com/KULLANICI_ADI/samba-web-manager.git
+sudo git clone https://github.com/adoniskzin/samba-web-manager.git
 cd samba-web-manager
 
 ### 4. Kurulum Scriptini Çalıştır
